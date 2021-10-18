@@ -1,0 +1,110 @@
+.woocommerce, .woocommerce-page {
+  h3 {
+    margin: 0.5em 0;
+  }
+  #respond input#submit.alt, a.button, button.button, input.button.alt, a.add_to_cart_button, a.button.alt, button.button.alt, #review_form #respond .form-submit input {
+    border-radius: 0;
+    color: #fff;
+    background-color: #446084;
+    border: 2px solid rgba(0,0,0,0.05);
+    transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+  }
+  #respond input#submit.alt:hover, a.button:hover, button.button:hover, input.button.alt:hover, a.add_to_cart_button:hover, a.button.alt:hover, button.button.alt:hover, #review_form #respond .form-submit input:hover {
+    background-color: #354D6B;
+    color: #fff;
+  }
+  #respond input#submit.disabled,
+  #respond input#submit:disabled,
+  #respond input#submit:disabled[disabled],
+  a.button.disabled, a.button:disabled,
+  a.button:disabled[disabled],
+  button.button.disabled,
+  button.button:disabled,
+  button.button:disabled[disabled],
+  input.button.disabled,
+  input.button:disabled,
+  input.button:disabled[disabled] {
+    opacity: 0.9;
+    color: #ffffff;
+    background-color: rgba(68, 96, 131, 0.42);
+    cursor: not-allowed;
+  }
+  #respond input#submit.alt.disabled, #respond input#submit.alt.disabled:hover,
+  #respond input#submit.alt:disabled, #respond input#submit.alt:disabled:hover,
+  #respond input#submit.alt:disabled[disabled], #respond input#submit.alt:disabled[disabled]:hover,
+  a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, a.button.alt:disabled,
+  a.button.alt:disabled:hover, a.button.alt:disabled[disabled],
+  a.button.alt:disabled[disabled]:hover, button.button.alt.disabled,
+  button.button.alt.disabled:hover, button.button.alt:disabled,
+  button.button.alt:disabled:hover, button.button.alt:disabled[disabled],
+  button.button.alt:disabled[disabled]:hover, input.button.alt.disabled,
+  input.button.alt.disabled:hover, input.button.alt:disabled,
+  input.button.alt:disabled:hover, input.button.alt:disabled[disabled],
+  input.button.alt:disabled[disabled]:hover {
+    color: #ffffff;
+    background-color: rgba(68, 96, 131, 0.42);
+  }
+
+  ul.products {
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    li.product {
+      box-sizing: border-box;
+      margin: 2em 0;
+      padding: 0 2% 2% 2%;
+      position: relative;
+    }
+  }
+  div.product {
+    .woocommerce-product-gallery__image {
+      overflow: visible !important;
+    }
+    .zoomImg {
+      z-index: 99999;
+    }
+    .woocommerce-tabs ul.tabs {
+      li {
+        border: 0;
+        border-bottom: 1px solid #cfcfcf;
+        background: rgba(0, 0, 0, 0);
+        border-radius: 0;
+        box-sizing: border-box;
+        &:after, &:before {
+          content: none;
+        }
+        &.active:after {
+          content: '';
+          border-bottom: 2px solid #446084;
+          right: 0;
+          width: 100%;
+          height: 2px;
+        }
+      }
+    }
+  }
+  form.woocommerce-cart-form {
+    #coupon_code {
+      width: 120px !important;
+    }
+  }
+  table.shop_table, .woocommerce-customer-details address {
+    border-radius: 0;
+  }
+  table.cart {
+    .cart_item input {
+      line-height: 2.507em;
+    }
+  }
+  form .form-row .input-text {
+    padding: 0.3em .75em;
+  }
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+  background: rgba(0,0,0,0.05);
+  margin-top: 15px;
+  padding: 15px 25px 10px;
+}

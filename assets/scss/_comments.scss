@@ -1,0 +1,90 @@
+#comments {
+  padding: 2rem 1rem;
+  ul.children {
+    padding-left: 5rem;
+  }
+
+  ol.comment-list {
+    padding: 2rem 1rem;
+    .flex-row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -ms-flex-pack: justify;
+      vertical-align: top;
+      width: 100%;
+    }
+    div.flex-col {
+      margin-right: 15px;
+      img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+      }
+      cite, .edit-link {
+        color: #334862;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .pull-right {
+        display: inline-block;
+        float: right;
+      }
+    }
+    .flex-grow {
+      flex: 1;
+    }
+  }
+
+  #respond {
+    background: rgba(0,0,0,0.05);
+    margin-top: 15px;
+    padding: 15px 25px 10px;
+    #reply-title {
+      margin: 0.67em 0;
+    }
+  }
+  #ag_theme_form_comment {
+    > p {
+      padding-top: 0;
+      > input {
+        line-height: 1.5em;
+      }
+    }
+
+    .button,
+    input[type='submit'],
+    input[type='submit'].button,
+    input[type='reset'].button,
+    input[type='button'].button {
+      border-radius: 0;
+      color: #fff;
+      background-color: #446084;
+      border: 2px solid rgba(0, 0, 0, 0.05);
+      transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
+      letter-spacing: .03em;
+      cursor: pointer;
+      font-weight: bolder;
+      text-align: center;
+      text-shadow: none;
+      text-rendering: optimizeLegibility;
+      text-decoration: none;
+      line-height: 2em;
+      padding: 0 1.2em;
+      box-sizing: border-box;
+    }
+
+    #ag_theme_submit_comment:hover {
+      border: 2px solid #474747;
+    }
+
+    #comment_textarea {
+      width: 100%;
+    }
+  }
+}

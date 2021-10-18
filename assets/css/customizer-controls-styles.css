@@ -1,0 +1,412 @@
+
+#customize-controls {
+    background: #ffffff;
+}
+
+input, select, input[type=checkbox], input[type=text] {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    background: #f4f4f4;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #32373c;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+#customize-theme-controls .customize-control-range input[type=range] {
+    transition: background .5s;
+    -webkit-appearance: none;
+    background-color: #f4f4f4;
+    height: 5px;
+    width: 150px;
+    padding: 0;
+}
+
+#customize-theme-controls .customize-control-range input.ag-pb-range-input:hover {
+    height: 28px;
+    background: #eaeaea;
+    transition: background .5s;
+}
+#customize-theme-controls .customize-control-range input.ag-pb-range-input {
+    width: 60px;
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    background: #F4F4F4;
+    padding: 3px;
+    font-size: 11px;
+    font-weight: 800;
+    color: #555;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 7px;
+    background: #3498db;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 0;
+}
+input[type=range]::-moz-range-thumb {
+    border: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 7px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 39px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    border: 0;
+    border-radius: 50px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #3498db;
+    border: 0;
+    border-radius: 50px;
+}
+input[type=range]::-ms-thumb {
+    border: 0;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+#customize-theme-controls .customize-control-range span:not(.customize-control-title) {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+    color: #a2a2a2;
+}
+
+#customize-theme-controls .customize-control {
+    margin: 0 0 25px 0;
+}
+
+#customize-theme-controls .customize-control-checkbox {
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid #eeeeee;
+    background-color: #fdfdfd;
+    margin-left: 0 !important;
+    padding: 6px 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.customize-control-checkbox .customize-inside-control-row {
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    letter-spacing: 1.1px;
+}
+.customize-control-checkbox label {
+    line-height: 2;
+}
+
+input[type=checkbox]:checked:before {
+    color: #2E86B9;
+    float: none;
+    content: "\f147";
+    font-family: 'Dashicons', serif;
+    height: 100%;
+    margin: 1px 0 0 -3px;
+    width: 100%;
+    line-height: 25px;
+    font-size: 24px;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    margin-top: 0;
+    width: 25px;
+    height: 25px;
+}
+
+#customize-theme-controls span.ag_select_type {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    background: #eae8e8;
+    padding: 6px 0;
+    float: left;
+    width: 22.5%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 14px;
+    color: #32373c;
+}
+
+#customize-control-AGtheme-template_menus_logo span.left,
+#customize-control-AGtheme-menus_logo span.left {
+    background: url(../images/left.png);
+}
+#customize-control-AGtheme-template_menus_logo span.center,
+#customize-control-AGtheme-menus_logo span.center {
+    background: url(../images/center.png);
+}
+#customize-control-AGtheme-template_menus_logo span.right,
+#customize-control-AGtheme-menus_logo span.right {
+    background: url(../images/right.png);
+}
+#customize-control-AGtheme-template_menus_logo span.centerA,
+#customize-control-AGtheme-menus_logo span.centerA {
+    background: url(../images/top-center.png);
+}
+
+#customize-control-AGtheme-template_menus_logo span.ag_select_type,
+#customize-control-AGtheme-menus_logo span.ag_select_type{
+    width: 120px;
+    border: none;
+    opacity: 0.6;
+    padding-top: 113px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#customize-control-AGtheme-footer_menu span.ag_select_type {
+    width: 30%;
+}
+
+#customize-theme-controls span.ag_theme_checked {
+    background-color: #ababab;
+}
+
+#customize-control-AGtheme-template_menus_logo span.ag_theme_checked,
+#customize-control-AGtheme-menus_logo span.ag_theme_checked {
+    opacity: 1;
+}
+
+/*footer*/
+#customize-theme-controls .ag_theme_select_span,
+#customize-theme-controls .ag_theme_option {
+    height: 30px;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+#customize-theme-controls .ag_theme_select {
+    display: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+#customize-theme-controls .ag_select_footer_column {
+    background: url(../images/footer-layouts.png) center -16px no-repeat;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#customize-theme-controls .customize-control-select_option .ag_theme_select_span{
+    background: none;
+    padding: 3px 5px 3px 11px;
+    border: 1px solid #ccc;
+}
+
+#customize-theme-controls .ag_theme_select_span:after{
+    content: "\f347";
+    font: 400 20px/1 dashicons;
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#customize-theme-controls .ag_theme_option_1 {
+    background: url(../images/footer-layouts.png)center -166px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_2 {
+    background: url(../images/footer-layouts.png)center -116px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_3 {
+    background: url(../images/footer-layouts.png)center -66px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_4 {
+    background: url(../images/footer-layouts.png)center -16px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_1_3 {
+    background: url(../images/footer-layouts.png)center -216px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_3_1 {
+    background: url(../images/footer-layouts.png)center -266px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_1_2 {
+    background: url(../images/footer-layouts.png)center -316px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_2_1 {
+    background: url(../images/footer-layouts.png)center -366px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_1_1_2 {
+    background: url(../images/footer-layouts.png)center -416px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_2_1_1 {
+    background: url(../images/footer-layouts.png)center -466px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_1_1_1_3 {
+    background: url(../images/footer-layouts1.png)center -505px no-repeat;
+}
+#customize-theme-controls .ag_theme_option_3_1_1_1 {
+    background: url(../images/footer-layouts1.png)center -462px no-repeat;
+}
+
+#customize-theme-controls li.ag_theme_option:hover {
+    background-color: #d6f5ff;
+}
+
+#customize-control-AGtheme-check_customize {
+    display: none;
+}
+
+.wp-picker-container .button.wp-color-result {
+    width: 100%;
+    height: 30px;
+}
+
+.wp-core-ui .button-secondary:active, .wp-core-ui .button.active, .wp-core-ui .button.active:hover, .wp-core-ui .button:active {
+    border: none;
+    box-shadow: none;
+}
+
+.wp-picker-input-wrap label{
+    max-width: 170px;
+    width: 100%;
+}
+
+.wp-picker-input-wrap .wp-picker-default{
+    width: 30%;
+    margin-right: 10px;
+}
+
+#customize-theme-controls .wp-picker-input-wrap input[type="text"].wp-color-picker.alpha-color-control {
+    width: 100%;
+}
+
+.wp-color-result-text {
+    background-color: #000000;
+    height: 100%;
+    opacity: 0.05;
+}
+
+.customize-control-content input[type=button].button-small,
+.customize-control-content input[type=text].wp-color-picker {
+    width: 75px;
+}
+
+.customize-control-content input[type=text].wp-color-picker {
+    width: 90px;
+}
+
+.customize-control-textarea textarea {
+    height: 50px;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
+
+.ui-autocomplete {
+    visibility: visible;
+    z-index: 999999;
+}
+
+#customize-theme-controls .customize-control .tooltip {
+    position: relative;
+    display: block;
+}
+
+#customize-theme-controls .customize-control-checkbox .customize-control-title {
+    display: inline-block;
+}
+
+#customize-theme-controls .customize-control .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    bottom: 100%;
+    top: auto;
+    margin-left: -60px;
+    opacity: 0;
+    display: inline-table;
+    height: auto;
+    transition: opacity 0.3s;
+    font-size: 13px;
+}
+
+#customize-theme-controls .customize-control .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+#customize-theme-controls .customize-control .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#customize-theme-controls .hide {
+    display: none !important;
+}
+
+.ag-hide {
+    display: none !important;
+}
